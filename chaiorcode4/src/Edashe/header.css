@@ -1,0 +1,194 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: white;
+}
+.text{
+    font-size: 2.1rem;
+    color: white;
+}
+#logout{
+    padding:12px 1.5rem;
+    background-color: rgb(203, 45, 14);
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+#maj{
+    word-wrap:break-word;
+    text-shadow: 1px 1px black;
+}
+#last{
+    margin-top: .5rem;
+}
+#accept,#complete,#fail,#completee,#faail{
+    padding: .7rem 1.5rem;
+    margin-top: 1rem;
+    background-color:rgb(70, 121, 193) ;
+    color:white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+#ektukaj{
+    display: flex;
+    justify-content: center;
+}
+#completee,#faail{
+    font-size: larger;
+    width:100%;
+    background-color: rgb(83, 128, 0);
+    border: 1px solid white;
+}
+#faail{
+    background-color: brown;
+}
+.borobakso{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+}
+.bakso{
+    background-color: aqua;
+    padding: 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    font-size:1.5rem;
+    border:2px solid white;
+}
+#complete{
+    background-color: rgb(51, 195, 149);
+    padding: .7rem 1rem;
+}
+#kajnai{
+    display: flex;
+    justify-content: space-between;
+}
+#fail{
+    background-color: rgb(211, 109, 88);
+}
+#fourth{
+    background-color:rgb(211, 109, 88);
+    box-shadow: -5px 5px 5px rgb(211, 109, 88);
+}
+#second{
+    background-color: rgb(70, 121, 193);
+    box-shadow: -5px 5px 5px rgb(70, 121, 193);
+}
+#third{
+    background-color: rgb(70, 193, 154);
+    box-shadow: -5px 5px 5px rgb(70, 193, 154);
+}
+#first{
+    background-color: rgb(189, 193, 70);
+    box-shadow: -5px 5px 5px rgb(189, 193, 70);
+}
+.ebap{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:3rem;
+    padding: 3rem;
+}
+#tbox{
+    width:100%;
+    background-color: rgba(127, 255, 212, 0.07);
+    padding: 2rem;
+    display: flex;
+    gap:2rem;
+    overflow-x: auto;
+    border-radius: 1rem;
+    color:white;
+}
+#tbox2{
+    width:100%;
+    background-color: rgba(127, 255, 212, 0.07);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color:white;
+    height:300px;
+    font-weight: 600;
+    font-size: larger;
+}
+#tbox::-webkit-scrollbar{
+    display: none;
+}
+#tbox1{
+    min-height:330px;
+    width:350px;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    padding: 1.3rem;
+}
+.newtask{
+    background-color: rgb(189, 193, 70);
+    transition: all .5s linear;
+}
+.active{
+    background-color: rgb(70, 121, 193);
+    transition: all .5s linear;
+}
+.complete{
+    background-color: rgb(70, 193, 154);
+    transition: all .5s linear;
+}
+.faill{
+    background-color: rgb(233, 141, 123);
+    transition: all .5s linear;
+}
+#div{
+    align-items: center;
+}
+@media (max-width:550px) {
+
+    .text{
+        font-size: 1.7rem;
+    }
+}
+@media (max-width:550px) {
+    .borobakso{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .bakso{
+        padding: 1rem;
+        font-size: large;
+        min-height: 90.4px;
+        display: flex;
+        align-items: center;
+    }
+    .ebap{
+        padding: 1.7rem;
+    }
+    #tbox2{
+        font-size: small;
+    }
+    #tbox1{
+        width:100%;
+        padding: 0.9rem;
+        font-size:0.7rem;
+        min-height: 200px;
+    }
+    #tbox{
+        padding: 1rem;
+    }
+    #accept,#complete,#fail{
+        padding: 10px 15px;
+        font-size: 0.7rem;
+        padding:0.2rem .3rem;
+        
+    }
+    #accept,#complete,#fail{
+        height:2.2rem;
+        width:7rem
+    }
+    #tbox{
+        flex-direction: column;
+        height: 50vh;
+        overflow-y: auto;
+    }
+}

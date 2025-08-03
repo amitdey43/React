@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+} 
+.card h2{
+    font-size: 25px;
+    margin:10px 0;
+}
+.card{
+    height:300px;
+    width:200px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgb(153, 142, 142);
+    margin: 10px;
+    display: inline-block;
+    p{
+        font-size: 15px;
+    }
+}

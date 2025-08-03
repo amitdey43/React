@@ -1,0 +1,31 @@
+img{
+    height:70px;
+    width: 130px;
+}
+.home{
+    height:100vh;
+    background:greenyellow;
+}
+.about{
+    background-color: violet;
+}
+.contact{
+    background-color: burlywood;
+}
+.nav1,.nav2,.nav3{
+    text-decoration: none;
+    margin:0 5px;
+    color: brown;
+}
+.Nav1,.Nav2,.Nav3{
+    text-decoration: none;
+    margin:0 5px
+}
+.khub{
+    display: flex;
+    width:100vw;
+}
+#ohh{
+    display: flex;
+    justify-content: center;
+}
